@@ -1,5 +1,9 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
+<nav>
+  {{#link-to "index"}}Home{{/link-to}}
+  {{#link-to 'products'}}Products{{/link-to}}
+</nav>
+<div class="wrapper">
+  <h2>Coinbase API App</h2>
+  <p>Just a simple API application built with Ember.js <span>(live feed coming soon)</span> </p>
+</div>
 {{outlet}}

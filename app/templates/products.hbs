@@ -1,0 +1,14 @@
+
+{{outlet}}
+<div class="container">
+</div>
+<div class="container">
+    {{#each model as |product|}}
+    <div class="coin-wrapper">
+      <h3>Currency: {{product.base_currency}}</h3>
+      <h4>Quote Type: {{product.quote_currency}}</h4>
+      <p>Min Order Size: {{product.base_min_size}}</p>
+      <p>Max Order Size: {{product.base_max_size}}</p>
+      </div>
+    {{/each}}
+</div>
