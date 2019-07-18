@@ -41,3 +41,18 @@ nav {
   padding: 50px 10px;
 
 }
+
+button {
+  padding: 10px 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #7F9CF5;
+  color: white;
+
+}

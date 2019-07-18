@@ -1,6 +1,5 @@
 import DS from 'ember-data';
 
-
 export default DS.Model.extend({
 
     base_currency: DS.attr('string'),
